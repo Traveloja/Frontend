@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture - Traveloja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/culture.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Explore the Culture of Java</h1>
+            <p>Discover the rich cultural heritage and unique traditions of Java Island.</p>
+        </div>
+    </section>
+
+    <!-- Choose Province Section -->
+    <section class="choose-province-section">
+        <div class="container">
+            <h2>Choose Your Province</h2>
+            <div class="province-select">
+                <select id="province" name="province">
+                    <option value="Banten">Banten</option>
+                    <option value="West Java">West Java</option>
+                    <option value="DKI Jakarta">DKI Jakarta</option>
+                    <option value="Central Java">Central Java</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="East Java">East Java</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section class="culture-section">
+        <div class="container">
+            <h2>Cultural Highlights</h2>
+            <div class="culture-grid">
+                <!-- Repeat for each cultural highlight -->
+                <div class="culture-card">
+                    <img src="images/provinsi/banten.jpg" alt="Culture Image">
+                    <div class="culture-details">
+                        <h3>Traditional Dance</h3>
+                        <p>Experience the captivating traditional dances of Java, a vibrant expression of cultural heritage.</p>
+                        <a href="culture-highlight-detail.html" class="btn btn-view-activity">View Activity</a>
+                    </div>
+                </div>
+                <!-- Add more culture cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Section -->
+    <section class="recipe-section">
+        <div class="container">
+            <h2>Traditional Recipes</h2>
+            <div class="recipe-grid">
+                <!-- Repeat for each recipe -->
+                <div class="recipe-card">
+                    <img src="images/provinsi/diy_yogya.jpg" alt="Recipe Image">
+                    <div class="recipe-details">
+                        <h3>Nasi Goreng</h3>
+                        <p>Learn how to make the famous Indonesian fried rice, a beloved dish across Java and beyond.</p>
+                        <a href="culture-recipe-detail.html" class="btn btn-view-recipe">View Recipe</a>
+                    </div>
+                </div>
+                <!-- Add more recipe cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

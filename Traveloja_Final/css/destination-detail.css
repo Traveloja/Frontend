@@ -1,0 +1,202 @@
+/* Destination Detail Page Specific Styles */
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.hero-content .rating {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.hero-content .btn-review {
+    background-color: #9C2928;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn-review:hover {
+    background-color: #e04e29;
+}
+
+.description-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.description-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.description-section p {
+    font-size: 1.2rem;
+}
+
+.plan-trip-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.plan-trip-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.plan-trip-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.nearby-destinations-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination-card {
+    flex: 0 0 calc(33.33% - 1rem);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destination-details {
+    padding: 1rem;
+}
+
+.destination-details h3 {
+    margin: 0 0 0.5rem;
+}
+
+.comments-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.comments-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.comments-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.comment-form textarea {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    resize: none;
+    height: 100px;
+}
+
+.comment-form .btn-submit-comment {
+    background-color: #9C2928;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form .btn-submit-comment:hover {
+    background-color: #e04e29;
+}
+
+.comment-list .comment {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.map-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.map-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.map-embed iframe {
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Detail - Traveloja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/destination-detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-image">
+            <img src="images/hero-image.jpg" alt="Destination Hero Image">
+        </div>
+        <div class="hero-content">
+            <h1>Curug Parigi</h1>
+            <p><span class="icon">📍</span> Bogor</p>
+            <p><span class="icon">🏷️</span> Waterfall</p>
+            <div class="rating">
+                <span class="stars">★★★★☆</span> (15 reviews)
+            </div>
+            <button class="btn btn-review">Write a Review</button>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="description-section">
+        <div class="container">
+            <h2>Description</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eros nec purus malesuada ultrices. Nullam vel scelerisque dui. Sed euismod, lorem ac tincidunt fermentum, nisi nulla hendrerit felis, at viverra augue ex sit amet nulla.</p>
+        </div>
+    </section>
+
+    <!-- Plan Trip Section -->
+    <section class="plan-trip-section">
+        <div class="container">
+            <h2>Plan Your Trip</h2>
+            <div class="nearby-destinations-grid">
+                <!-- Repeat for each nearby destination -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/nearby-destination1.jpg" alt="Nearby Destination Image">
+                    </div>
+                    <div class="destination-details">
+                        <h3>Nearby Destination Title</h3>
+                        <p><span class="icon">📍</span> Location</p>
+                    </div>
+                </div>
+                <!-- Add more nearby destination cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments-section">
+        <div class="container">
+            <h2>Comments</h2>
+            <div class="comment-form">
+                <textarea placeholder="Write your comment here..."></textarea>
+                <button class="btn btn-submit-comment">Submit Comment</button>
+            </div>
+            <div class="comment-list">
+                <!-- Repeat for each comment -->
+                <div class="comment">
+                    <p><strong>John Doe:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eros nec purus malesuada ultrices.</p>
+                </div>
+                <!-- Add more comments as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Map</h2>
+            <div class="map-embed">
+                <!-- Replace with actual map embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.534588210551!2d4.351710315743092!3d50.85033997953454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380ae0e6e23%3A0x4b029c8f5b9344cf!2sGrand%20Place!5e0!3m2!1sen!2sbe!4v1601297806348!5m2!1sen!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

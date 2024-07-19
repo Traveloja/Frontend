@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Traveloja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Profile Header Section -->
+    <section class="profile-header">
+        <div class="profile-background">
+            <img src="images/hero-image.jpg" alt="Profile Background">
+        </div>
+        <div class="profile-info">
+            <div class="profile-photo">
+                <img src="images/provinsi/banten.jpg" alt="Profile Photo">
+            </div>
+            <h1>John Doe</h1>
+            <p>Travel Enthusiast</p>
+            <div class="profile-actions">
+                <a href="#" class="btn btn-edit-profile">Edit Profile</a>
+                <a href="#" class="btn btn-friends-list">Friends List</a>
+                <a href="#" class="btn btn-settings">Settings</a>
+            </div>
+        </div>
+    </section>
+
+      <!-- User Posts Section -->
+      <section class="user-posts-section">
+        <div class="container">
+            <h2>My Posts</h2>
+            <div class="posts-grid">
+                <!-- Repeat for each user post -->
+                <div class="post-card">
+                    <img src="images/provinsi/banten.jpg" alt="Post Image">
+                    <div class="post-details">
+                        <h3>John Doe</h3>
+                        <p>Had an amazing time at Curug Parigi! The waterfall is stunning and the surrounding nature is breathtaking.</p>
+                    </div>
+                </div>
+                <!-- Add more post cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishlist Section -->
+    <section class="wishlist-section">
+        <div class="container">
+            <h2>Wishlist</h2>
+            <div class="carousel">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/provinsi/jawa_barat.jpg" alt="Destination Image">
+                        <div class="badge hot-tour">Hot Tour</div>
+                        <div class="badge high-rate">High Rate</div>
+                    </div>
+                    <div class="destination-details">
+                        <h3>2 Day 1 Night Trip to Santorini, Greece</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span> (15 reviews)
+                        </div>
+                        <div class="location">
+                            <span class="icon">📍</span> New Zealand
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat destination cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Places Have Been To Section -->
+    <section class="places-been-section">
+        <div class="container">
+            <h2>Places I've Been To</h2>
+            <div class="carousel">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/provinsi/jawa_barat.jpg" alt="Destination Image">
+                        <div class="badge hot-tour">Hot Tour</div>
+                        <div class="badge high-rate">High Rate</div>
+                    </div>
+                    <div class="destination-details">
+                        <h3>2 Day 1 Night Trip to Santorini, Greece</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span> (15 reviews)
+                        </div>
+                        <div class="location">
+                            <span class="icon">📍</span> New Zealand
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat destination cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

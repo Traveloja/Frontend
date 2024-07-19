@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Traveloja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/destinations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Discover Destinations</h1>
+            <p>Explore the beauty of Java Island with our curated destinations.</p>
+        </div>
+          <!-- Search and Filter Bar -->
+    <section class="search-filter-section">
+        <div class="container">
+            <div class="search-filter-bar">
+                <div class="search-input-container-location">
+                    <label for="location">Location</label>
+                    <input list="locations" id="location" name="location" class="search-input" placeholder="Choose your destination">
+                    <datalist id="locations">
+                        <option value="Banten">
+                        <option value="West Java">
+                        <option value="DKI Jakarta">
+                        <option value="Central Java">
+                        <option value="Yogyakarta">
+                        <option value="East Java">
+                    </datalist>
+                </div>
+                <div class="search-input-container-filter">
+                    <div class="filter-dropdown">
+                        <button class="filter-btn">Filter</button>
+                        <div class="filter-content">
+                            <label><input type="checkbox" value="Park/Zoo"> Park/Zoo</label>
+                            <label><input type="checkbox" value="Mountain"> Mountain</label>
+                            <label><input type="checkbox" value="Waterfall"> Waterfall</label>
+                            <label><input type="checkbox" value="River"> River</label>
+                            <label><input type="checkbox" value="Camp"> Camp</label>
+                            <label><input type="checkbox" value="Museum"> Museum</label>
+                            <label><input type="checkbox" value="Hiking"> Hiking</label>
+                            <label><input type="checkbox" value="Trekking"> Trekking</label>
+                            <label><input type="checkbox" value="Family Friendly"> Family Friendly</label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-explore">Explore Now</button>
+            </div>
+            <div class="additional-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Popular</button>
+                <button class="filter-btn">Near You</button>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Search and Filter Bar -->
+    <!-- <section class="search-filter-section">
+        <div class="container">
+            <div class="search-filter-bar">
+                <div class="search-input-container-location">
+                    <label for="location">Location</label>
+                    <input list="locations" id="location" name="location" class="search-input" placeholder="Choose your destination">
+                    <datalist id="locations">
+                        <option value="Banten">
+                        <option value="West Java">
+                        <option value="DKI Jakarta">
+                        <option value="Central Java">
+                        <option value="Yogyakarta">
+                        <option value="East Java">
+                    </datalist>
+                </div>
+                <div class="search-input-container-filter">
+                    <div class="filter-dropdown">
+                        <button class="filter-btn">Filter</button>
+                        <div class="filter-content">
+                            <label><input type="checkbox" value="Park/Zoo"> Park/Zoo</label>
+                            <label><input type="checkbox" value="Mountain"> Mountain</label>
+                            <label><input type="checkbox" value="Waterfall"> Waterfall</label>
+                            <label><input type="checkbox" value="River"> River</label>
+                            <label><input type="checkbox" value="Camp"> Camp</label>
+                            <label><input type="checkbox" value="Museum"> Museum</label>
+                            <label><input type="checkbox" value="Hiking"> Hiking</label>
+                            <label><input type="checkbox" value="Trekking"> Trekking</label>
+                            <label><input type="checkbox" value="Family Friendly"> Family Friendly</label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-explore">Explore Now</button>
+            </div>
+            <div class="additional-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Popular</button>
+                <button class="filter-btn">Near You</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Destinations Section -->
+    <section class="all-destinations">
+        <div class="container">
+            <h2>All Destinations</h2>
+            <div class="carousel">
+                <div class="destination-card">
+                    <a href="destination-detail.html">
+                    <div class="destination-image">
+                        <img src="images/provinsi/jawa_barat.jpg" alt="Destination Image">
+                        <div class="badge hot-tour">Hot Tour</div>
+                        <div class="badge high-rate">High Rate</div>
+                    </div>
+                    <div class="destination-details">
+                        <h3>Lorem Ipsum</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span> (15 reviews)
+                        </div>
+                        <div class="location">
+                            <span class="icon">📍</span> Westminster Borough, London
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="destination-card">
+                    <a href="destination-detail.html">
+                    <div class="destination-image">
+                        <img src="images/provinsi/jawa_barat.jpg" alt="Destination Image">
+                        <div class="badge hot-tour">Hot Tour</div>
+                        <div class="badge high-rate">High Rate</div>
+                    </div>
+                    <div class="destination-details">
+                        <h3>Lorem Ipsum</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span> (15 reviews)
+                        </div>
+                        <div class="location">
+                            <span class="icon">📍</span> Westminster Borough, London
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <!-- Repeat destination cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

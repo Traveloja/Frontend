@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloja - Explore Java</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Explore Java</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus diam at sem lacinia.</p>
+        </div>
+    </section>
+
+    <!-- Destination Categories -->
+    <section class="destination-categories">
+        <div class="container">
+            <h2>Where You At Today?</h2>
+            <div class="categories-grid">
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/banten.jpg');">
+                    <div class="category-card-content">Banten</div>
+                </a>
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/jawa_barat.jpg');">
+                    <div class="category-card-content">West Java</div>
+                </a>
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/dki_jakarta.jpg');">
+                    <div class="category-card-content">DKI Jakarta</div>
+                </a>
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/diy_yogya.jpg');">
+                    <div class="category-card-content">DIY Yogyakarta</div>
+                </a>
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/jawa_tengah.jpg');">
+                    <div class="category-card-content">Central Java</div>
+                </a>
+                <a href="destinations.html" class="category-card" style="background-image: url('images/provinsi/jawa_timur.jpg');">
+                    <div class="category-card-content">East Java</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="popular-destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="carousel">
+                <div class="destination-card">
+                    <a href="destination-detail.html">
+                        <div class="destination-image">
+                            <img src="images/provinsi/jawa_barat.jpg" alt="Destination Image">
+                            <div class="badge hot-tour">Hot Tour</div>
+                            <div class="badge high-rate">High Rate</div>
+                        </div>
+                        <div class="destination-details">
+                            <h3>2 Day 1 Night Trip to Santorini, Greece</h3>
+                            <div class="rating">
+                                <span class="stars">★★★★☆</span> (15 reviews)
+                            </div>
+                            <div class="location">
+                                <span class="icon">📍</span> New Zealand
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Repeat destination cards as needed -->
+            </div>
+            <a href="destinations.html" class="btn btn-view-all">View All Destinations</a>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

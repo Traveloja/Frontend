@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - Traveloja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/community.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Traveloja</a>
+            <button class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destination</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="signup.html" class="btn btn-signup">Sign Up</a>
+                    <a href="signin.html" class="btn btn-signin">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Join Our Community</h1>
+            <p>Share your travel experiences and connect with fellow travelers.</p>
+        </div>
+    </section>
+
+    <!-- Create Community Section -->
+    <section class="create-community-section">
+        <div class="container">
+            <h2>Create a New Community</h2>
+            <form class="create-community-form">
+                <input type="text" placeholder="Community Name" required>
+                <textarea placeholder="Description" required></textarea>
+                <button type="submit" class="btn btn-create-community">Create Community</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community-section">
+        <div class="container">
+            <h2>Existing Communities</h2>
+            <div class="community-grid">
+                <!-- Repeat for each community -->
+                <div class="community-card">
+                    <img src="images/provinsi/banten.jpg" alt="Community Image">
+                    <div class="community-details">
+                        <h3>Curug Parigi Enthusiasts</h3>
+                        <p>A community for people who love exploring the Curug Parigi waterfall.</p>
+                        <a href="#" class="btn btn-view-community">View Community</a>
+                    </div>
+                </div>
+                <!-- Add more community cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Posts Section -->
+    <section class="posts-section">
+        <div class="container">
+            <h2>Community Posts</h2>
+            <div class="posts-grid">
+                <!-- Repeat for each post -->
+                <div class="post-card">
+                    <img src="images/provinsi/jawa_barat.jpg" alt="Post Image">
+                    <div class="post-details">
+                        <h3>John Doe</h3>
+                        <p>Had an amazing time at Curug Parigi! The waterfall is stunning and the surrounding nature is breathtaking.</p>
+                        <a href="#" class="btn btn-comment">Comment</a>
+                    </div>
+                </div>
+                <!-- Add more post cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
